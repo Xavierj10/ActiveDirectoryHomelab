@@ -1,5 +1,5 @@
 # Active Directory Home Lab
-#### I decided to do this lab to help me get exposure to Microsoft Server2019 and Active Directory. The hard part about not being in the field of IT is not having access to certain technologies so you have to get experience on your own. So this will be one of my many first home labs I will be documenting on GitHub.
+#### I decided to do this lab to help me get exposure to Microsoft Server2019 and Active Directory. The hard part about not being in the field of IT is not having access to certain technologies so you have to get experience on your own. So this will be the first of many home labs I will be documenting on GitHub.
 ## Tools Used
 - [Oracle VirtualBox](https://www.virtualbox.org/)
 - [Windows Server2019](https://info.microsoft.com/ww-landing-windows-server-2019.html)
@@ -11,13 +11,15 @@
   - Set up VirtualBox
   - Set up Windows Server2019
   - Set up Microsoft Active Directory
-  - Add 25 users manually to Active Directory
+  - Add 25+ users manually to Active Directory
+  - Create an Organization Unit named Groups
   - Create 5 seperate workgroups to separate the users into
+  - Simulate a user password reset
   
   
  ## Step One: Set up VirtualBox and Active Directory
   - To get fully set up I recommend following along to [Josh Madakdor's Youtube Video](https://www.youtube.com/watch?v=MHsI8hJmggI)
-  #### I recommend this video because its straight to the point and easy to follow along. He talks about setting an internal network and using a powershell script but I wouldnt worry about those this project is meant to introduce you to Active Directory and How it works.
+  #### I recommend this video because its straight to the point and easy to follow along. He talks about setting up an internal network and using a powershell script but I wouldn't worry about those this project is meant to introduce you to Active Directory and How it works.
   
 <img width="1207" alt="Screenshot 2023-01-02 at 6 03 51 PM" src="https://user-images.githubusercontent.com/121701900/210286252-3bf9f7f5-4ed2-45cd-89b6-9962c741bf41.png">
 
@@ -26,7 +28,7 @@
 <img width="388" alt="Screenshot_20230102_080821" src="https://user-images.githubusercontent.com/121701900/210291857-7f345703-dd71-457f-bbe2-bb5dcc8f9a39.png">
 
 - Right Click on Users
-- Go to New wait for the extend menu to load
+- Go to New, wait for the extend menu to load
 - And then click on User and the input field will open up
 
 
